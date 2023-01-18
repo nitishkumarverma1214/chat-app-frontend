@@ -26,10 +26,6 @@ function Login() {
     try {
       const config = {
         headers: {
-          "Access-Control-Allow-Origin": "*",
-          "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS",
-          "Access-Control-Allow-Headers":
-            "Content-Type, X-Auth-Token,Origin, Authorization",
           "Content-Type": "application/json",
         },
         crossDomain: true,
