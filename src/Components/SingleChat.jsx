@@ -40,7 +40,7 @@ function SingleChat({ fetchAgain, setFetchAgain }) {
     },
   };
 
-  const ENDPOINT = "http://localhost:3000";
+  const ENDPOINT = `${import.meta.env.VITE_BASE_URL}`;
 
   const socket = useRef();
   const fetchMessage = async () => {
