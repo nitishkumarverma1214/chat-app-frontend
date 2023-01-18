@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 import { chatState } from "../context/ChatProvider";
 import { AddIcon } from "@chakra-ui/icons";
 import ChatLoading from "./ChatLoading";
-import { getSender } from "../config/chatLogics";
+import { getSender } from "../config/ChatLogics";
 import GroupChatModel from "./miscellaneous/GroupChatModel";
 function MyChats({ fetchAgain }) {
   const { user, selectedChat, setSelectedChat, chats, setChats } = chatState();
