@@ -14,7 +14,7 @@ import Chatpage from "./Pages/Chatpage";
 import Layout from "./Pages/Layout";
 
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import ChatProvider from "./context/chatProvider";
+import ChatProvider from "./context/ChatProvider";
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
