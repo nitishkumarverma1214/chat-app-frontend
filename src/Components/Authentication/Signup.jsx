@@ -10,7 +10,7 @@ import {
   InputRightElement,
   useToast,
 } from "@chakra-ui/react";
-import { chatState } from "../../context/chatProvider";
+import { chatState } from "../../context/ChatProvider";
 
 function Signup() {
   const [showPassword, setShowPassword] = React.useState(false);

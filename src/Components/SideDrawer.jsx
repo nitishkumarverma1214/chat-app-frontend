@@ -22,7 +22,7 @@ import {
   useToast,
 } from "@chakra-ui/react";
 import { BellIcon, ChevronDownIcon } from "@chakra-ui/icons";
-import { chatState } from "../context/chatProvider";
+import { chatState } from "../context/ChatProvider";
 import ProfileModel from "./miscellaneous/ProfileModel";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";

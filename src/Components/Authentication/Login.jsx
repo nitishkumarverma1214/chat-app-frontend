@@ -11,7 +11,7 @@ import { Input } from "@chakra-ui/react";
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import { chatState } from "../../context/chatProvider";
+import { chatState } from "../../context/ChatProvider";
 
 function Login() {
   const [show, setShow] = React.useState(false);

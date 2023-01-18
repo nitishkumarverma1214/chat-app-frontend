@@ -9,7 +9,7 @@ import {
   useToast,
 } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
-import { chatState } from "../context/chatProvider";
+import { chatState } from "../context/ChatProvider";
 import { getSender, getSenderFull } from "../config/ChatLogics";
 import ProfileModel from "./miscellaneous/ProfileModel";
 import UpdateGroupChatModal from "./miscellaneous/UpdateGroupChatModel";

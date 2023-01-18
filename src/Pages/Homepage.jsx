@@ -3,7 +3,6 @@ import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
 import React, { useEffect } from "react";
 import Login from "../Components/Authentication/Signup";
 import Signup from "../Components/Authentication/Login";
-import { useNavigate } from "react-router-dom";
 
 function Homepage() {
   return (
