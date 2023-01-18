@@ -28,6 +28,7 @@ function Login() {
         headers: {
           "Content-type": "application/json",
         },
+        crossDomain: true,
       };
       const { data } = await axios.post(
         `${import.meta.env.VITE_BASE_URL}/api/user/login`,
